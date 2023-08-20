@@ -35,3 +35,17 @@ export const limit = (arr) => {
     }
     return newArr
 }
+
+
+export const valid = (element) => {
+    // let error = [true, '']
+
+    // if (element.validation.require) {
+    //     let valid = element.value.trim() !== ''
+    //     let message = `${!valid ? 'This Field is Required' : ''}`
+    //     error = !valid ? [valid, message] : error
+    // }
+
+    // return error
+    console.log(element)
+}
